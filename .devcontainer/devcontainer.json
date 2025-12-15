@@ -6,3 +6,9 @@
 	"forwardPorts": [5432],
 	"onCreateCommand": "cp -n .env.example .env"
 }
+{
+  "features": {
+    "ghcr.io/devcontainers/features/git-lfs:1": {}
+  },
+  "postCreateCommand": "git lfs install --local"
+}
