@@ -28,7 +28,7 @@ La información se ha obtenido de Kaggle https://www.kaggle.com/datasets/davidca
 
 - appearence.csv: Un dataset en el cual cada registro contiene información de cada jugador en cada partido de diferentes ligas desde el año 2012 al 2024. 
 
-Dificultad: Gran cantidad de registros (más de 1.650.000) y su gran tamaño no permitía trabajarlo en codespace.
+Dificultad: Gran cantidad de registros (más de 1.650.000) y su gran tamaño no permitía trabajarlo en Codespace.
 
 Solución: Hemos generado un nuevo dataset (appearence_agrupado.csv) que ha sido trabajado en el google colab en el siguiente link:
 https://colab.research.google.com/drive/1kkoDlp4htYlhvd1pJ4Mg8GcqiJniWnwx#scrollTo=55sTvyXtUQs0
