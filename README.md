@@ -37,29 +37,52 @@ Cada registro de dicho dataset contiene la información de los partidos de cada 
 A continuación describimos el procedimiento:
 
 1. Selección de columnas relevantes en el dataset appearence:
+
 'game_id': identificación de cada partido, 
+
 'player_id': identificación de jugador, 
+
 'player_club_id': identificación del club del jugador, 
+
 'date': fecha del partido, 
+
 'player_name': nombre del jugador, 
+
 'competition_id': identificación de la liga, 
+
 'yellow_cards': tarjetas amarillas del jugador en el partido, 
+
 'red_cards': tarjetas rojas del jugador en el partido, 
+
 'goals': cantidad de goles del jugador en el partido, 
+
 'assists': cantidad de asistencias del jugador en el partido, 
+
 'minutes_played': cantidad de minutos jugador por jugador en el partido.
 
+
 2. Adición de columnas de otros dataset (Herramienta de pandas: merge):
+
 'club_name': nombre del club del jugador, 
+
 'date_of_birth': fecha de nacimiento del jugador (para poder calcular la edad en cada partido),
+
 'age': edad del jugador en el partido.
 
+
 3. Agrupación de filas por jugador, año y liga (Herramienta: groupby). Generando:
+
 'matches_played': cantidad de partidos jugados (de cada jugador en cada liga y en cada año),
+
 'yellow_cards': promedio de tarjetas amarillas,
+
 'red_cards': promedio de tarjetas rojas,
+
 'goals': promedio de goles,
+
 'assists': promedio de asistencias,
+
 'minutes_played': promedio de minutos jugados,
+
 "age": edad del jugador. 
 
