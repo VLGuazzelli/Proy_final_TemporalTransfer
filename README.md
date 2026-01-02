@@ -86,3 +86,23 @@ A continuación describimos el procedimiento:
 
 "age": edad del jugador. 
 
+### Análisis exploratorio de datos:
+
+El análisis exploratorio de datos (EDA) se realizó con el objetivo de comprender la estructura del dataset, identificar patrones relevantes, detectar valores atípicos, evaluar la calidad de los datos y obtener insights iniciales que orienten el modelado posterior.
+
+
+Se analizó la presencia de valores nulos y duplicados.
+
+Las variables 'country_of_birth', 'city_of_birth', 'foot', 'height_in_cm' y 'sub_position presentaban valores faltantes. Debido a la gran cantidad de datos que tenemos y que el porcentaje de datos nulos es bajo, hemos eliminado dichas filas para continuar con nuestro análisis.
+
+No se detectaron registros duplicados tras el proceso de limpieza.
+
+#### Data set final:
+
+El dataset final cuenta con 183.607 observaciones y 17 variables, de las cuales:
+
+- 10 son variables numéricas
+
+- 7 son variables categóricas
+
+- La variable objetivo es 'market_value_in_eur', de tipo numérica (continua).
