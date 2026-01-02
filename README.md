@@ -106,3 +106,6 @@ El dataset final cuenta con 183.607 observaciones y 17 variables, de las cuales:
 - 7 son variables categóricas
 
 - La variable objetivo es 'market_value_in_eur', de tipo numérica (continua).
+
+### Análisis univariado:
+
